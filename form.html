@@ -2,13 +2,30 @@
 <html>
         <meta charset="utf-8" />
     <head>
-        <title>권형준 회원가입</title>
+        <title>에버랜드 회원가입</title>      
+        
+        <style>
+        body{text-align : center;}
+        body {background:url(image/illustlog_1.jpg);
+                        position: relative;
+                        background-size: cover;
+                        background-attachment: fixed;}
+        #image{width: 600px;} 
+        #center{
+                              width: 800px;
+                              margin-left: auto;
+                              margin-right: auto;
+
+                      }
+        
+        </style>        
+        
 
     
     </head>
     <body>
-            
-            <strong>메이플 스토리 회원가입</strong>
+        <img id=image src="./image/logo_1.png"/>
+         
         
         
 
@@ -54,6 +71,7 @@
                     <select>
                             <option>남자</option>
                             <option>여자</option>
+
                     </select>
                     <br />
                     <br />
@@ -63,6 +81,9 @@
                     <input type="button" value="인증버튼" onclick="alert('인증 번호가 발송되었습니다')" />
                     <br />
                     <input type="text" placeholder="인증번호를 입력하세요." />
+                    <p>로봇이 아닙니까?</p>
+                    <input type="radio" name="bt1"/>
+            
                     <br />
                     <br />
                     <input type="submit" value="제출" />
